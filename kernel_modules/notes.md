@@ -62,3 +62,15 @@ compiled, this allows modules to be loaded and removed as needed. This can have 
 and performance benefits.
 
 ### Mechanics
+
+#### First, `dlopen()`
+
+`dlopen()` is a function call that is responsible for loading dynamic libraries on Linux. It opens
+a compiled binary library file and reads in the assembly instructions and incorporates that code
+into the running program.
+
+#### How does that relate to kernel modules?
+
+You can think of kernel module loading as a more complicated `dlopen()`. It takes kernel code and
+maps it into kernel space and activates it. Each kernel module has two main function entry points:
+one when the kernel is loaded for initialization and one when the kernel is removed for cleanup.
