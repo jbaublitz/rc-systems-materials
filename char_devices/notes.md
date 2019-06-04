@@ -27,4 +27,4 @@ when you write to your char device file.
 
 ### Example of a Rust char device
 
-(This)[https://github.com/jbaublitz/knock-out/blob/master/src/lib.rs] is the bulk of the code for a Rust char device.
+[This](https://github.com/jbaublitz/knock-out/blob/master/src/lib.rs) is the bulk of the code for a Rust char device.
