@@ -24,3 +24,7 @@ read(file_descriptor, ...) -> file descriptor points to a file object in the ker
 
 In the case of char devices, the char device driver we'll write in the next assignment will define what happens
 when you write to your char device file.
+
+### Example of a Rust char device
+
+(This)[https://github.com/jbaublitz/knock-out/blob/master/src/lib.rs] is the bulk of the code for a Rust char device.
