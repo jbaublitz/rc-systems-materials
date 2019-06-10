@@ -9,3 +9,7 @@ This course is going to focus on teaching Rust and C in the context of interacti
 ### Linux kernel modules
 
 This is located in the `kernel_modules/` directory. It is an overview of writing kernel modules for Linux in C and Rust.
+
+### Linux kernel char devices
+
+This is located in the `char_devices/` directory. It is an overview of char devices, a type of kernel module in Linux.
